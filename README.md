@@ -7,3 +7,6 @@
 - git add #
 - git status
 - git commit -m "#"
+- git diff
+- git branch
+- git log
