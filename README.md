@@ -1,9 +1,9 @@
 # my-git-notes
 
-- git config --global user.name "public"
-- git config --global user.email "public"
-- git remote add origin [URL]
+- git config --global user.name "#"
+- git config --global user.email "#"
+- git remote add origin #
 - git remote -v
-- git add [dosya isimi]
+- git add #
 - git status
-- git commit -m "açıklama"
+- git commit -m "#"
