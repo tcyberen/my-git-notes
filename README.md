@@ -1,12 +1,15 @@
 # my-git-notes
-
-- git config --global user.name "#"
-- git config --global user.email "#"
-- git remote add origin #
-- git remote -v
-- git add #
-- git status
-- git commit -m "#"
-- git diff
-- git branch
-- git log
+- `git config --global user.name "kullanıcı_adı"`: Git kullanıcısı adını ayarlamak için kullanılır. Burada `"kullanıcı_adı"` kısmına geçerli bir kullanıcı adı yazılması gerekiyor.
+- `git config --global user.email "e-posta_adresi"`: Git kullanıcısı e-posta adresini ayarlamak için kullanılır. Burada `"e-posta_adresi"` kısmına geçerli bir e-posta adresi yazılması gerekiyor.
+- `git remote add origin repo_URL`: Yerel depoya uzak bir deposu eklemek ve bağlantı URL'si belirtmek için kullanılır. Burada `"repo_URL"` kısımına gerçek bir repo adresi yazılmalıdır.
+- `git remote -v`: Mevcut tüm uzak sunucuların listesini gösterir.
+- `git add dosya_adi`: Değiştirilen veya yeni eklenen dosyaların takip edilmesi (stage) için hazır hale getirilir. Burada `"dosya_adi"` kısım, değişikliği yapılan dosyanın ismini belirttiğimiz bölümdür.
+- `git status`: Depodaki değişiklikleri ve hazır durumdaki dosyaların durumunu gösterir.
+- `git diff`: Dosyalardaki farklılıkları görüntüler. Bu komutla önceki sürüm ile şimdiki sürüm arasındaki farklılık görüntülenebilir.
+- `git branch`: Mevcut tüm dalları listeler. Bu komut, projenin dal yönetimi için kullanılır ve mevcut dalların isimleri ve hangi dalda olduğu bilgilerini verir.
+- `git log`: Geçmişte yaptığınız işlemleri detaylı olarak incelemenizi sağlayan komuttur. Bu komut, tarih, saat, commit mesajı gibi bilgiler içeren bir liste oluşturur.
+- `git clone repo_URL`: Uzak bir depoyu kopyalamak için kullanılır. Burada "repo_URL" kısımına gerçek bir repo adresi yazılmalıdır.
+- `git pull`: Mevcut kaynak kodunuzda yapılan değişiklikleri almak ve güncellemeleri yerelleştirmek için kullanılır.
+- `git push origin branch_adi`: Yerel dalınızdaki tüm değişiklikleri uzaktaki depoya göndermek için kullanılır. Burada "origin" kısmı uzaktaki depo adını, "branch_adi" kısmı ise mevcut dalın ismini ifade eder.
+- `git reset dosya_adi`: Hazır haldeki (staged) dosyaların takibini bırakmak veya son yapılan lokal commit işlemini geri alma amaçlı kullanılır. Burada "dosya_adi" kısımda ilgili dosyanın ismi belirtilmelidir.
+- `git stash`: Mevcut çalışma dizininizdeki değişikliklerden geçici olarak vazgeçmek istediğiniz durumlarda kullanabilirsiniz. Bu komutla bu değişiklikler saklanarak daha sonra tekrar çağırılabilirler.
